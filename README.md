@@ -25,6 +25,10 @@
 - 3명의 얼굴을 분리할 때, 각 50장의 사진을 넣었는데도 overfitting 현상이 나타나 Training Accuracy는 95%를 육박했으나, Validation Accuracy는 30%에서 오르지 않았음
 - Image Augmentation 기법을 이용해 데이터셋을 8배로 늘림
 - SheerX, Affine, CropAndPad, DropOut, Sharpen, ElasticTransformation 
+- image Augmentation의 예시 
+<img src = "https://user-images.githubusercontent.com/46915174/114366191-2a3e2100-9bb6-11eb-97b8-fb561d47a21b.png" width = 500>
+- imageAugmentation.py
+
 
 ### 전체 프로젝트의 구조
 <img src = "https://user-images.githubusercontent.com/46915174/114355657-afbbd400-9baa-11eb-8126-aeca1386cee0.png" width = 600>
